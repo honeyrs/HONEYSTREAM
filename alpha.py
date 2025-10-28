@@ -58,7 +58,7 @@ name = 'filetolinkbot'
 DATABASE_URL = "mongodb+srv://biklriplit:efaXfv2Ps9MRfner@cluster0.4hfu8zj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 UPDATES_CHANNEL = "TestMeWithLove"  # (not enforced anymore)
-OWNER_ID = ()
+OWNER_ID = (7210185648)
 OWNER_USERNAME = ""
 
 SLEEP_THRESHOLD = '60'
@@ -66,14 +66,14 @@ WORKERS = 4
 BIN_CHANNEL = "TestMeWithLove"
 
 PORT = 80
-BIND_ADRESS = 'alphronix.live'
-FQDN = "64.227.136.200" # why we use?
+BIND_ADRESS = '0.0.0.0'
+FQDN = "0.0.0.0" # why we use?
 PING_INTERVAL = "1200"  # 20 minutes
 NO_PORT = True
 APP_NAME = None
 MY_PASS = False  # not used anymore
 URL = f"http://{BIND_ADRESS}/"
-ON_HEROKU = False
+ON_HEROKU = True
 TERMUX = False
 
 
