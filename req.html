@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:image" content="https://i.postimg.cc/k4qq2Kb7/opus.png" itemprop="thumbnailUrl">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%s</title>
+    <link rel="stylesheet" type='text/css' href="https://drive----google.com/uc?export=view&id=1pVLG4gZy7jdow3sO-wFS06aP_A9QX0O6">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
+    
+    <style>
+      body {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      header {
+        flex-shrink: 0;
+      }
+      marquee {
+        font-size: 30px;
+        font-weight: 800;
+        color: Black;
+        font-family: serif;
+      }
+      /* Hide the file name */
+      #file-name {
+        display: none;
+      }
+      .container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      video {
+        width: 100%%;
+        height: auto;
+        max-width: 100%%;
+        max-height: 100%%;
+      }
+    </style>
+</head>
+
+<body>
+    <header>
+        <marquee bgcolor="#808080">
+            <div class="toogle"></div>
+            <div id="file-name">%s</div>
+        </marquee>
+    </header>
+
+    <div class="container">
+        <video src="%s" controls></video>
+    </div>
+</body>
+</html>
