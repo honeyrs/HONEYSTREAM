@@ -66,7 +66,7 @@ WORKERS = 4
 BIN_CHANNEL = "TestMeWithLove"
 
 PORT = 80
-BIND_ADRESS = '0.0.0.0'
+BIND_ADRESS = 'streamsa-a291949ef481.herokuapp.com'
 FQDN = "0.0.0.0" # why we use?
 PING_INTERVAL = "1200"  # 20 minutes
 NO_PORT = True
